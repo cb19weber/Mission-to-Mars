@@ -5,12 +5,28 @@
 from splinter import Browser
 from bs4 import BeautifulSoup as soup
 from webdriver_manager.chrome import ChromeDriverManager
-# Import Pandas
+# Import Pandas and datetime
 import pandas as pd
+import datetime as dt
 
-# Initialize Splinter to use Chrome
-executable_path = {'executable_path': ChromeDriverManager().install()}
-browser = Browser('chrome', **executable_path, headless=False)
+def scrape_all():
+    # Initialize Splinter to use Chrome
+    executable_path = {'executable_path': ChromeDriverManager().install()}
+    browser = Browser('chrome', **executable_path, headless=False)
+    news_title, news_paragraph = mars_news(browser)
+    
+    # Run all scraping functions and store results in dictionary
+    data = {
+        "news_title": news_title, 
+        "news_paragraph": news_paragraph, 
+        "featured_image": featured_image(browser), 
+        "facts": mars_facts(), 
+        "last_modified": dt.datetime.now()
+    }
+
+    # Stop webdriver and return data
+    browser.quit()
+    return data
 
 def mars_news(browser):
     # Scrape Mars News
@@ -32,10 +48,8 @@ def mars_news(browser):
         # Use the parent element to find the paragraph text
         news_p = slide_elem.find('div', class_='article_teaser_body').get_text()
     except AttributeError:
-        browser.quit()
         return None, None
     
-    browser.quit()
     return news_title, news_p
 
 def featured_image(browser):
@@ -56,13 +70,11 @@ def featured_image(browser):
         # Find the relative image url
         img_url_rel = img_soup.find('img', class_='fancybox-image').get('src')
     except AttributeError:
-        browser.quit()
         return None
     
     # Use the base URL to create an absolute URL
     img_url = f'{url}/{img_url_rel}'
 
-    browser.quit()
     return img_url
 
 def mars_facts():
@@ -79,3 +91,7 @@ def mars_facts():
     
     # Convert dataframe into HTML format, add bootstrap
     return df.to_html()
+
+if __name__ == "__main__":
+    # If running as a script, print scraped data
+    print(scrape_all())
