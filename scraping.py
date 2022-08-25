@@ -95,7 +95,7 @@ def mars_facts():
     return df.to_html()
 
 def hemispheres(browser):
-    # 1. Use browser to visit the URL 
+    # 1. Use browser to visit the URL - had to update link to ensure function performed correctly
     url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
     browser.visit(url)
 
