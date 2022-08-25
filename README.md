@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
-
+<body>
 # Mission-to-Mars
 DU Data Analytics Bootcamp - Module 10: Web-scraping, MongoDB, and more Flask
 
@@ -41,3 +41,5 @@ I've been working pretty extensively on my Python, and I'm really starting to fi
 Reading the html code on the new websites to be scraped certainly offered some challenge in really getting deeper with the code and understanding how tags and various aspects of the code work and are layered onto one another. Once I got a feel for understanding the stucture, I was able to navigate fairly well and am thankful to have begun another fork of the journey to expand on my development capabilities.
 
 ## Results
+</body>
+</html>
