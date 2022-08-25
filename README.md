@@ -24,9 +24,9 @@ What is your <i>dream</i> job? For our module, our client's dream job is to work
     <td><p>The initial challenge of the module was learning some new libraries: Beautiful Soup and Splinter. These libraries aid data scientists in automating native browsers in order to visit web pages and harvest data from them much faster than what a normal person could. There is a lot to learn here, and not just with the code, but also about the ethical nature of what we're endeavoring to do. It's important that anyone engaging in WebScraping understands what they're doing and takes reasonable precaution to ensure they're following applicable regulations and terms of service agreements.<br>
     <br>
     Additional challenges can somewhat specifically relate to working with unstructured data. Data Analysts and scientists coming from a world where most of their data is structured might have a bit of a learning curve to working with unstructured data.<br>
-    <br>
-    And then finally, working with two new languages, HTML5 and CSS3, required getting used to all of the syntax, formatting, structures, and nuances of those languages. But the result is the ability to take really amazing data and share it with a <i>much</i> larger audience. To understand that ability, there are two pretty simple questions. How many people have Python3, several libraries, MongoDB, and Anaconda installed on their systems? Now, how many people have Google Chrome, or Microsoft Edge, or Apple Safari installed on their computer, tablet, or phone? Our audience has quite obviously grown.<br>
-    </td>
+    <br></p></td>
+    <td><img src="https://github.com/cb19weber/Mission-to-Mars/blob/main/templates/web_site.png" /></td></tr>
+    <tr></td><p>And then finally, working with two new languages, HTML5 and CSS3, required getting used to all of the syntax, formatting, structures, and nuances of those languages. But the result is the ability to take really amazing data and share it with a <i>much</i> larger audience. To understand that ability, there are two pretty simple questions. How many people have Python3, several libraries, MongoDB, and Anaconda installed on their systems? Now, how many people have Google Chrome, or Microsoft Edge, or Apple Safari installed on their computer, tablet, or phone? Our audience has quite obviously grown.<br></p></td>
   </tr>
 </table>
 
