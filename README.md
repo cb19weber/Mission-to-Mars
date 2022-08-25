@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 <body><div class="container">
-# Mission-to-Mars
-DU Data Analytics Bootcamp - Module 10: Web-scraping, MongoDB, and more Flask<br>
+<h1>Mission-to-Mars</h1>
+<h4>DU Data Analytics Bootcamp - Module 10: Web-scraping, MongoDB, and more Flask</h4><br>
 
 ## Overview of Project
 Building upon the implementation of using NoSQL databases (MongoDB) to hold information, we branched this week into using this database to store information from WebScraping projects, and then call from that database to build a dynamic web application. The module and challenge this week combined multiple technologies: Python (and specifically Pandas, BeautifulSoup, Splinter, and WebDriver) to author code that scrapes data from websites, MongoDB and PyMongo to push the scraped data from Python to our NoSQL database, and HTML and CSS (in combination with Flask) to construct a web application, serving as a user-friendly GUI to make use of our web scraping program.
