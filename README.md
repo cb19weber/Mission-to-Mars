@@ -25,10 +25,10 @@ What is your <i>dream</i> job? For our module, our client's dream job is to work
     <br>
     Additional challenges can somewhat specifically relate to working with unstructured data. Data Analysts and scientists coming from a world where most of their data is structured might have a bit of a learning curve to working with unstructured data.<br>
     </p></td>
-    <td width=33%><p align="center">><img src="https://github.com/cb19weber/Mission-to-Mars/blob/main/templates/web_site.png" /></td>
+    <td width=50%><p align="center">><img src="https://github.com/cb19weber/Mission-to-Mars/blob/main/templates/web_site.png" /></td>
   </tr>
 
-  <tr></td><p>And then finally, working with two new languages, HTML5 and CSS3, required getting used to all of the syntax, formatting, structures, and nuances of those languages. But the result is the ability to take really amazing data and share it with a <i>much</i> larger audience. To understand that ability, there are two pretty simple questions. How many people have Python3, several libraries, MongoDB, and Anaconda installed on their systems? Now, how many people have Google Chrome, or Microsoft Edge, or Apple Safari installed on their computer, tablet, or phone? Our audience has quite obviously grown.<br></p></td>
+  <tr><td><p>And then finally, working with two new languages, HTML5 and CSS3, required getting used to all of the syntax, formatting, structures, and nuances of those languages. But the result is the ability to take really amazing data and share it with a <i>much</i> larger audience. To understand that ability, there are two pretty simple questions. How many people have Python3, several libraries, MongoDB, and Anaconda installed on their systems? Now, how many people have Google Chrome, or Microsoft Edge, or Apple Safari installed on their computer, tablet, or phone? Our audience has quite obviously grown.<br></p></td>
   </tr>
 </table>
 
